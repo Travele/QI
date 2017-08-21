@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> New Document </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <style type="text/css">
+	
+		body{
+			background-color:black;
+			background-repeat:no-repeat;
+		}
+		.left{
+			background:-webkit-repeating-linear-gradient(45deg,#66ccff,#0099cc,#66cc00,#ff3300,#9d9d9d);animation:play linear 10s infinite;color:transparent;-webkit-background-clip:text;
+			width:80px;
+			height:800px;
+			position:fixed;
+			top:100px;
+			left:120px;
+			font-size:80px;
+			opacity: 0.8;	
+			
+		}
+		.right{
+			background:-webkit-repeating-linear-gradient(45deg,#66ccff,#0099cc,#66cc00,#ff3300,#9d9d9d);animation:play linear 10s infinite;color:transparent;-webkit-background-clip:text;
+			width:80px;
+			height:800px;
+			position:fixed;
+			top:100px;
+			left:1700px;
+			font-size:80px;
+			opacity: 0.9;
+		}
+			@keyframes 
+			play{
+				from{background-position:0 0;}
+				to{background-position:1000px 0;}
+			}
+
+		input{
+                border: 1px solid;
+                padding: 7px 0px;
+                border-radius: 5px;
+                padding-left:5px;
+				width:80px;
+            }
+			#div1{
+				width:1000px;
+				height:650px;
+				opacity: 0.9;
+				background-image:url(2.gif);
+				background-repeat:no-repeat;
+			}
+  </style>
+  <script type="text/javascript">
+		 function checks(){
+			var passwords = document.getElementById("passwords").value;
+			var spanss = document.getElementById("spans");
+			var div2 = document.getElementById("div1");
+			if(passwords=="love"){
+					div2.innerHTML="请从内心对自己说<br/><center></center>".fontcolor("#ff9900")+"<br/><h4>1、一辈子孤单并不可怕，如果我们可以从中提炼出自由，那我们就是幸福的。许多长久的关系都以为忘记了当初所坚持与拥有的，最后又开始羡慕起孤单的人。<br/>2、有些事，不是不在意，而是在意了又能怎样。人生没有如果，只有后果和结果。成熟，就是用微笑来面对一切小事。<br/>3、永远不知道下一秒会发生什么，活着，或许就是最好的恩赐，惜福前行。<br/>4、青春一首歌，她拨动着我们年轻的心弦；青春是一团火，她点燃了我们沸腾的热血；青春是一面旗帜，她召唤着我们勇敢前行；青春是一本教科书，她启迪着我们的智慧和心灵。<br/>5、第一次哭是因为你不在，第一次笑是因为遇到你，第一次笑着流泪是因为不能拥有你<br/>6、最好的恋情是，你可以彻底地做自己，并且你的另一半依然迷恋真实的你。不恋你的，就不是好的。<br/>7、哥伦布说地球是圆的，只要一直前行，就会到达目的地，可我走了这么久，却没发现和你的距离有一丝一毫的减少<br/>8、有人告诉我，鱼的记忆只有秒，秒之后它就不记得过去的事情，一切又都变成新的。所以，在那小小鱼缸里的鱼儿，永远都不会感到无聊。我宁愿是条鱼，秒一过就什么都忘记，曾经遇到的人，曾经做过的事，都可以烟消云散。可我不是鱼，无法忘记我爱的人，无法忘记牵挂的苦，无法忘记相思的痛。<br/>9、不是每个擦肩而过的人都会相识，也不是每个相识的人都会让人牵挂。<br/>10、人生像一抹彩虹，离不开绚丽的色彩；笑是世间至美之物，它忘掉烦恼，抛弃忧愁，谱出未来，展示信心。常带笑容面对人生，你会发现其中的美丽。拥有笑容，你就是世间至美之人<br/>11、不管多大多老，不管家人朋友怎么催，都不要随便对待婚姻，婚姻不是打牌，重新洗牌要付出巨大代价。<br/>12、执念，依旧是执念，指引着我等一次次地下车，然后与列车背对而走，留在我身后的人或事，到底，我还是不去残余我想知道的是，在等待的日子里，谁比谁坚强，又是谁给谁绝望？列车周而复始，从开始到终点，穿梭在城市，静默了哪些人的思考，聆听了谁的哭泣？默默地祝愿着每一趟列车上的人，平安抵达终点，安安静静，恬淡如水，仿如面对一湾平静的湖水，心无杂念，何处寻可怜？而那些杂音，似静静流淌的歌声，在我耳边低吟浅唱…</h3>".fontcolor("#990099 #ff00ff");
+			}else if(passwords=="MQ"){
+					div2.innerHTML="<h1>带我荣华富贵，许你十里桃花</h1>".fontcolor("#66ffff");
+			}else if(passwords=="Q"){
+					div2.innerHTML="<h1>再热的水还是会凉，再爱的情终究会淡，别总说来日方长，你得习惯人走茶凉</h1>".fontcolor("#99ccff");
+			}	
+			else if(passwords==''){
+					div2.innerHTML="<marquee><h2>不能为空</h2></marquee>".fontcolor("#00ffff");
+			}else{
+					div2.innerHTML="<marquee><h2>输入不正确</h2></marquee>".fontcolor("red");
+			}
+		 }
+  </script>
+ </head>
+ <body>
+			<audio controls="controls" autoplay="autoplay" loop="loop" hidden="hidden">
+					<source src="./勉为其难.mp3" type="audio/mpeg">
+			</audio>
+			<center><font color="#cc6633">请输入love:</font><input type="text" id="passwords"></input>
+		<input type="button"onclick="checks()" value="确定"></input></center>
+	<br/>
+	<center><div id="div1"><h2><font color="red">许我三千笔墨，绘你绝世倾城</font></h2>
+	</div>
+	</center>
+	<center><pre><h3><font color="#9900ff">
+			坚硬的城市里没有柔软的爱情。生活不是林黛玉，不会因为忧伤而风情万种。
+			人永远看不破的镜花水月，不过我指间烟云世间千年如我一瞬。
+			感情最沉重的一步：我仍愿意听，你却不愿讲。
+			不要在想让你哭的人面前哭。
+			放弃同样是一种选择，放弃并不是自己无能，而是因为自己有了更好的选择。有时候，放弃比坚持还需要勇气。
+			每个人的电话本里，都会有那么一个号码，你永远不会打，也永远不会删；每个人的心里，都会有那么一个人。
+<font></h3></pre>
+</center>
+	<div class="left" style="font-family:斜体">树高万丈不忘根</div>
+	<div class="right" style="font-family:斜体">人若辉煌不忘本</div>
+ </body>
+</html>
